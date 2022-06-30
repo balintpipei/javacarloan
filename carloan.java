@@ -13,7 +13,9 @@ public class CarLoan {
       //full monthly payment with itnerest
       int interest = monthlyBalance * interestRate / 100;
 
-      System.out.println(interest + monthlyBalance);
+      int full = interest + monthlyBalance;
+
+      System.out.println("The total monthly payment for you car is " + full);
     }
   }
 
